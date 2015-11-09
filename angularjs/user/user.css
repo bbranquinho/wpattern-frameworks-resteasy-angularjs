@@ -1,0 +1,32 @@
+table {
+    border-spacing: 5px;
+    width: 100%;
+}
+table tr:nth-child(even) {
+    background-color: #EEE;
+}
+table tr:nth-child(odd) {
+    background-color: #FFF;
+}
+table th {
+    color: white;
+    background-color: black;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    text-align: left;
+}
+th, td {
+    padding: 15px;
+}
+button {
+  background: #000;
+  border-radius: 28px;
+  color: #FFF;
+}
+button:hover {
+  background: #BBB;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WPattern Frameworks RESTEasy and AngularJS</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+    <script type="text/javascript" src="sum.js"></script>
+  </head>
+  <body>
+    <div ng-app="sum">
+      <div ng-controller="sumCtrl">
+          <button ng-click="calcularSoma(value1, value2)">Calculate</button> </br>
+          <input type="text" name="value1" ng-model="value1" required> </br>
+          <input type="text" name="value2" ng-model="value2" required> </br>
+          <p>Result: {{ value }}</p>
+      </div>
+    </div>
+  </body>
+</html>
